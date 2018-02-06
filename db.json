@@ -1,9 +1,11 @@
 {
-  "Results": [
-    { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Project" },
-    { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" }
-  ],
-  "meta": {
-    "name": "typicode"
+  "search?type=Project": {
+    "Results": [
+      { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Project" },
+      { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" }
+    ],
+    "meta": {
+      "name": "typicode"
+    }
   }
 }
