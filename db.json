@@ -1,12 +1,34 @@
 {
   "search": {
-    "Results": [
-      { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Project" },
-      { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" },
-      { "Id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" }
-    ],
-    "meta": {
-      "name": "typicode"
+    "Project": {
+      "Results": [
+        { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Project" },
+        { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" },
+        { "Id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" }
+      ],
+      "meta": {
+        "name": "typicode"
+      }
+    },
+    "Workspace": {
+      "Results": [
+        { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Workspace" },
+        { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Workspace" },
+        { "Id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Workspace" }
+      ],
+      "meta": {
+        "name": "typicode"
+      }
+    },
+    "ProjectFile": {
+      "Results": [
+        { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "ProjectFile" },
+        { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "ProjectFile" },
+        { "Id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "ProjectFile" }
+      ],
+      "meta": {
+        "name": "typicode"
+      }
     }
   }
 }
