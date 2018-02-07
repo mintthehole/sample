@@ -6,7 +6,9 @@
       { "Id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" }
     ],
     "meta": {
-      "name": "typicode"
+      "PageSize": 15,
+      "TotalRecords": 3,
+      "CurrentPage": 1
     }
   },
   "Workspace": {
@@ -14,8 +16,10 @@
       { "Id": "15bd8263-7139-43ff-8091-6907c30a1d93", "Type": "Workspace" },
       { "Id": "34bd11d3-1d78-488f-b13d-12e7c4555893", "Type": "Workspace" }
     ],
-    "meta": {
-      "name": "typicode"
+     "meta": {
+      "PageSize": 15,
+      "TotalRecords": 2,
+      "CurrentPage": 1
     }
   },
   "ProjectFile": {
@@ -23,7 +27,9 @@
       { "Id": "8711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "ProjectFile" }
     ],
     "meta": {
-      "name": "typicode"
+      "PageSize": 15,
+      "TotalRecords": 1,
+      "CurrentPage": 1
     }
   }
 }
