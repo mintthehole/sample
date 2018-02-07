@@ -1,6 +1,6 @@
 {
-  "search": {
-    "Project": {
+  "search": [
+    {
       "Results": [
         { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Project" },
         { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" },
@@ -10,7 +10,7 @@
         "name": "typicode"
       }
     },
-    "Workspace": {
+    {
       "Results": [
         { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Workspace" },
         { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Workspace" },
@@ -20,7 +20,7 @@
         "name": "typicode"
       }
     },
-    "ProjectFile": {
+    {
       "Results": [
         { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "ProjectFile" },
         { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "ProjectFile" },
@@ -30,5 +30,5 @@
         "name": "typicode"
       }
     }
-  }
+  ]
 }
