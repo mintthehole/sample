@@ -1,35 +1,17 @@
 {
-  "Project": {
-    "Results": [
-      { "Id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "Project" },
-      { "Id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" },
-      { "Id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "Type": "Project" }
-    ],
-    "meta": {
-      "PageSize": 15,
-      "TotalRecords": 3,
-      "CurrentPage": 1
-    }
-  },
-  "Workspace": {
-    "Results": [
-      { "Id": "15bd8263-7139-43ff-8091-6907c30a1d93", "Type": "Workspace" },
-      { "Id": "34bd11d3-1d78-488f-b13d-12e7c4555893", "Type": "Workspace" }
-    ],
-     "meta": {
-      "PageSize": 15,
-      "TotalRecords": 2,
-      "CurrentPage": 1
-    }
-  },
-  "ProjectFile": {
-    "Results": [
-      { "Id": "8711bc47-6544-41e2-b1d1-c83d5cf7d866", "Type": "ProjectFile" }
-    ],
-    "meta": {
-      "PageSize": 15,
-      "TotalRecords": 1,
-      "CurrentPage": 1
-    }
-  }
+  "id": 1,
+  "title": "Cat 2017",
+  "sections": [
+    { "id": 1, "title": "Section 1" },
+    { "id": 2, "title": "Section 2" },
+    { "id": 3, "title": "section 3" }
+  ],
+  "questions": [
+    { "section_id": 1, "id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "title": "Section 1", "type": "CASE", "options": ["One","Two"], "paragraph_id": 1},
+    { "section_id": 2,"id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "title": "Section 2", "type": "MCQ",  "options": ["One","Two", "Three", "Four"]},
+    { "section_id": 3,"id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "title": "section 3", "type": "ShortAnswer", "keyboard": "numeric"}
+  ],
+  "paragraphs": [
+    {"id": 1, "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
+  ]
 }
