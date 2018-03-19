@@ -1,17 +1,55 @@
 {
-  "id": 1,
-  "title": "Cat 2017",
-  "sections": [
-    { "id": 1, "title": "Section 1" },
-    { "id": 2, "title": "Section 2" },
-    { "id": 3, "title": "section 3" }
-  ],
-  "questions": [
-    { "section_id": 1, "id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866", "title": "Section 1", "type": "CASE", "options": ["One","Two"], "paragraph_id": 1},
-    { "section_id": 2,"id": "c126194e-dbaf-448b-b5cd-ffcfc118e306", "title": "Section 2", "type": "MCQ",  "options": ["One","Two", "Three", "Four"]},
-    { "section_id": 3,"id": "d226194e-dbaf-448b-b5cd-ffcfc118e306", "title": "section 3", "type": "ShortAnswer", "keyboard": "numeric"}
-  ],
-  "paragraphs": [
-    {"id": 1, "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."}
-  ]
+    "id": 1,
+    "user_quiz_id": 10,
+    "answers": [],
+    "title": "Cat 2017",
+    "type": "Quiz type",
+    "sections": [{
+            "id": 1,
+            "title": "Section 1",
+            "order": 1
+        },
+        {
+            "id": 2,
+            "title": "Section 2",
+            "order": 2
+        },
+        {
+            "id": 3,
+            "title": "section 3",
+            "order": 3
+        }
+    ],
+    "questions": [{
+            "rank": 1,
+            "section_id": 1,
+            "id": "7711bc47-6544-41e2-b1d1-c83d5cf7d866",
+            "title": "Section 1",
+            "type": "CASE",
+            "options": ["One", "Two"],
+            "paragraph_id": 1
+        },
+        {
+            "rank": 3,
+            "section_id": 2,
+            "id": "c126194e-dbaf-448b-b5cd-ffcfc118e306",
+            "title": "Section 2",
+            "type": "MCQ",
+            "options": ["One", "Two", "Three", "Four"]
+        },
+        {
+            "rank": 2,
+            "section_id": 3,
+            "id": "d226194e-dbaf-448b-b5cd-ffcfc118e306",
+            "title": "section 3",
+            "type": "ShortAnswer",
+            "keyboard": "numeric"
+        }
+    ],
+    "paragraphs": [{
+        "id": 1,
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }]
 }
+
+
